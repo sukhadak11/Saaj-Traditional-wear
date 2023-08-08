@@ -1,0 +1,143 @@
+/* Global Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  background-color: #edbfbf;
+  font-family: Arial, sans-serif;
+}
+
+/* nav start */
+header {
+  align-items: center;
+  background-color: #af5491;
+  padding: 0 5px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 10px white;
+  z-index: 2;
+}
+
+.img-close {
+  width: 100%;
+  height: 30px;
+
+}
+nav{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav li{
+  list-style-type: none;
+}
+nav h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: #f5f8eb;
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+header nav  .back {
+  margin-left: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header nav  .back:hover {
+  background-color: none;
+  cursor: pointer;
+}
+
+nav a {
+  color: #faf9f9;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #7e3838;
+  color: rgb(172, 159, 159);
+  border-radius: 5px;
+}
+/* nav end */
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: #d0c869f2;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+
+h1 {
+  text-align: center;
+  color: #9c125e;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #070101;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #9a1251;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.921);
+}
+.author {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  font-style: none;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
